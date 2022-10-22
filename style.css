@@ -1,0 +1,48 @@
+*{
+    transition: all 0.5s ease ;
+}
+
+.menu ul {
+    display: none;
+}
+.menu.open ul{
+display: block;
+background-color: rgb(255, 255, 255);
+box-shadow:  10px 10px 30px rgba(225, 225, 225, 1);
+width: 300px;
+height: 400px;
+position: absolute;
+top: 2.5em;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.menu.open ul li{
+    margin: 1em 0;
+    font-size: 26px;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0;
+}
+.menu_icon{
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu_icon div.one,.two,.three{
+    background-color: rgb(0, 0, 0);
+    height: 10px;
+    width: 100%;
+
+}
+.one,.three{
+    margin: 0.5em;
+}
